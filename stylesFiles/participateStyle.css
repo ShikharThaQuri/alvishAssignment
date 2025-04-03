@@ -1,0 +1,41 @@
+.ppsectionOne {
+  height: 100vh;
+
+  background-image: url(../assets/student-1822451_640.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.ppsectionTwo {
+  padding-inline: 150px;
+  padding-block: 50px;
+  background-color: antiquewhite;
+
+  text-align: center;
+}
+
+.ppsectionTwo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ppsectionTwo .ppImageOne img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-block: 60px 40px;
+}
+
+.ppsectionTwo .ppImageTwo img {
+  width: 500px;
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ppsectionTwo button {
+  margin-top: 50px;
+}
