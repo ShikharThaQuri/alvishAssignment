@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.sameButton {
+  background-color: red;
+  color: white;
+  padding: 8px 13px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 1.5rem 0;
+
+  background-color: antiquewhite;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+ul li {
+  margin: 0 2rem;
+  word-wrap: normal;
+
+  background-color: white;
+  padding: 8px 10px;
+}
+
+/* ------------------- Foother Section --------------- */
+
+.footer {
+  background-color: antiquewhite;
+  padding-block: 50px;
+  padding-inline: 150px;
+}
+
+.footer-inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-left-div img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-left-div .first {
+  margin-block: 15px;
+}
+
+.footer-right-div .first {
+  margin-right: 50px;
+}
+.footer-right-div .first {
+  line-height: 35px;
+}
+.footer-right-div .second {
+  line-height: 35px;
+}
+
+.footer .line {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-last div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-last div p {
+  margin-left: 30px;
+}
