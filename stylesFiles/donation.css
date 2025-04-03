@@ -1,0 +1,51 @@
+.donationsectionOne {
+  height: 80vh;
+
+  background-image: url(../assets/angelina-litvin-xTJ4ZtPD__8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.donationsectionTwo {
+  height: 70vh;
+
+  background-image: url(../assets/manuel-meza-KvKop_a_EXw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.donationsectionTwo h1 {
+  margin-right: 30px;
+}
+.donationsectionTwo div button {
+  font-size: 15px;
+}
+
+.donationsectionThree {
+  height: 70vh;
+
+  background-image: url(../assets/vincent-van-zalinge-AjtGg8feZhg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.donationsectionThree h1 {
+  margin-right: 30px;
+}
+.donationsectionThree div button {
+  font-size: 15px;
+}
